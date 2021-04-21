@@ -6,8 +6,6 @@ import re
 import os
 from time import sleep
 
-from random import randint
-from datetime import datetime
 from nltk.sentiment import SentimentIntensityAnalyzer as sia
 from nltk.tokenize import sent_tokenize as senTok
 from nltk import download
